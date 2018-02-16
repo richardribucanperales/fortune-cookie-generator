@@ -2,19 +2,28 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel=stylesheet href="./css/styles.css"
+    <link rel=stylesheet href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
     <title>fortune cookie generator</title>
   </head>
   <body>
     <div class="header">
-      <h1>Fortune Generator</h1>
-      <p>This website randomizes fortunes for you!</p>
+      <h1 id='title'>Fortune Generator</h1>
+      <p id='title-text'>This website randomizes fortunes for you!</p>
     </div>
     <div class="cookie-generator">
+      <div id='fortune-cookie-text'>
+        <p id='fortune-text'>THIS IS YOUR PREDICTED FORTUNE</p>
+        <p id='fortune-onclick'>hhh</p>
+        <button id='fortune-button'onclick='generateFortuneCookie()' onclick=>YOUR FORTUNE!</button>
+      </div>
+      <div id='previous-fortunes'>
+      </div>
     </div>
-    <div class="logs">
+    <div class="extra">
     </div>
     <div class="footer">
     </div>
+    <script src="js/app.js"></script>
   </body>
 </html>
