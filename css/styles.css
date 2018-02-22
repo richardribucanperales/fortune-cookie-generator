@@ -26,3 +26,7 @@ body{
   width:100px;
   background-color:pink;
 }
+#previous-fortunes{
+  max-height: 250px;
+  overflow-y:auto;
+}
