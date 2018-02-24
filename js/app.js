@@ -4,7 +4,6 @@ var theList = ["we're gods","its kinda too late","do it","sexy keegan is watchin
 var pastFortunes = [];
 var buttonList = ["another one", "another? really?", "don't you think you had enough?", "lmao press me"]
 var number = 0
-var fortune = theList[a]
 function generateFortuneCookie(){
   /*math random crap*/
 
@@ -43,10 +42,22 @@ function generateFortuneMax(){
 
   /*appending fortunes*/
   var div2 = document.createElement("div")
-  div2.innerHTML = fortunes
-  document.getElementById("previous-fortunes").appendChild(div2)
   var div3 = document.createElement("div")
+  var div4 = document.createElement("div")
+  var div5 = document.createElement("div")
+  var div6 = document.createElement("div")
+  var div7 = document.createElement("div")
+  div2.innerHTML = fortunes[0]
   div3.innerHTML = "----------"
+  div4.innerHTML = fortunes[2]
+  div5.innerHTML = fortunes[4]
+  div6.innerHTML = fortunes[6]
+  div7.innerHTML = fortunes[8]
+  document.getElementById("previous-fortunes").appendChild(div2)
+  document.getElementById("previous-fortunes").appendChild(div4)
+  document.getElementById("previous-fortunes").appendChild(div5)
+  document.getElementById("previous-fortunes").appendChild(div6)
+  document.getElementById("previous-fortunes").appendChild(div7)
   document.getElementById("previous-fortunes").appendChild(div3)
   document.getElementById("fortune-number2").innerHTML = number += 5
   /*wacky buttons*/
