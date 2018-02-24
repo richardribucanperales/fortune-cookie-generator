@@ -18,10 +18,14 @@ body{
 .cookie-generator{
   text-align:center;
 }
+#fortune-onclick{
+  height:200px;
+  width:auto;
+}
 #fortune-text{
   font-size:15px;
 }
-#fortune-button{
+.fortune-buttons{
   height:50px;
   width:100px;
   background-color:pink;
